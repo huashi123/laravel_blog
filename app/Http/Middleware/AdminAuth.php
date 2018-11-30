@@ -22,4 +22,8 @@ class AdminAuth
         }
         return $next($request);
     }
+    public function test()
+    {
+        echo "this is a test;";
+    }
 }
